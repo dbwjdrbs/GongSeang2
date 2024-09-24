@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_margin="1dp"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="15dp">
+
+        <TextView
+            android:id="@+id/textView_list_id"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="40"
+            android:layout_margin="5dp"
+            android:fontFamily="@font/nanum_barunpen_regular"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:text="모집단위"
+            android:padding="5dp" />
+
+
+        <TextView
+            android:id="@+id/textView_list_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:layout_margin="5dp"
+            android:fontFamily="@font/nanum_barunpen_regular"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:text="합격선"
+            android:padding="5dp" />
+
+
+        <TextView
+            android:id="@+id/textView_list_address"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:layout_margin="5dp"
+            android:fontFamily="@font/nanum_barunpen_regular"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:text="경쟁률"
+            android:padding="5dp" />
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:id="@+id/listView_main_list" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:visibility="gone"
+        android:id="@+id/textView_main_result" />
+
+</LinearLayout>
+

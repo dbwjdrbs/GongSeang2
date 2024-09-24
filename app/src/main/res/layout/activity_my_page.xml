@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MyPageActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nanum_barunpen_regular"
+        android:text="마이페이지"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btn_nickname_change"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@android:color/black"
+        android:text="닉네임 변경"
+        android:textColor="@android:color/white"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/btn_password_change"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@android:color/black"
+        android:text="비밀번호 변경"
+        android:textColor="@android:color/white"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/btn_withdrawal"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@android:color/black"
+        android:text="회원탈퇴"
+        android:textColor="@android:color/white"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@android:color/black"
+        android:text="로그아웃"
+        android:textColor="@android:color/white"
+        android:textSize="17sp" />
+
+</LinearLayout>

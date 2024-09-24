@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.helloboard">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GongSeang_Develop_ver"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".IntroActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false"
+            android:label="@string/title_activity_main2" />
+        <activity
+            android:name=".LikePostActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ImgActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Pass_SearchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FreeBoardSearchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FreeBoard_Edit_Activity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.naver.maps.map.CLIENT_ID"
+            android:value="79sw3rt7zy" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="" />
+
+        <activity
+            android:name=".Test_Info_National_Competition_PassActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Test_Info_Local_Competition_PassActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Test_Info_Local_Area_Jeolla"
+            android:exported="true" />
+        <activity
+            android:name=".Test_Info_Local_Area_Gyeongsang"
+            android:exported="true" />
+        <activity
+            android:name=".Test_Info_Local_Area_Gyeonggi"
+            android:exported="true" />
+        <activity
+            android:name=".Test_Info_Local_Area_Gangwon"
+            android:exported="true" />
+        <activity
+            android:name=".Test_Info_Local_Area_Chungcheong"
+            android:exported="true" />
+        <activity
+            android:name=".IntroActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Id_SearchActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".TestScheduleActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Test_InformationActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MapActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FreeBoardActivity"
+            android:exported="true" />
+        <activity
+            android:name=".WithdrawalActivity"
+            android:exported="true" />
+        <activity
+            android:name=".PasswordChangeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NicknameChangeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MyPageActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CommunityActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FreeBoard_Posting_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".FreeBoard_View_Activity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".StudyBoardActivity"
+            android:exported="true" />
+        <activity
+            android:name=".StudyBoard_Posting_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".StudyBoard_View_Activity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".ReviewBoardActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ReviewBoard_Posting_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".ReviewBoard_View_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".RecommendBoardActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RecommendBoard_Posting_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".RecommendBoard_View_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".CalendarScheduleActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CalendarScheduleAddActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CalendarScheduleShowActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*">
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="강원도 경쟁률/합격선"
+        android:textSize="30sp"
+        android:fontFamily="@font/nanum_barunpen_regular"
+        android:gravity="center"
+        android:textColor="@color/black" />
+
+    <Spinner
+        android:id="@+id/spinner"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="70px"
+        android:fontFamily="@font/nanum_barunpen_regular"
+        android:textColor="@color/black"
+        android:text="  지역명             합격선           경쟁률"/>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="286dp">
+        <TextView
+            android:id="@+id/textView_main_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="6"
+            android:padding="5dp"
+            android:scrollbarStyle="insideInset"
+            android:scrollbars="vertical"
+            android:textColor="@color/black"
+            android:textSize="70px" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="108dp">
+
+        <TextView
+            android:id="@+id/textView_main_result"
+            android:layout_width="match_parent"
+            android:layout_height="79dp"
+            android:layout_margin="5dp"
+            android:layout_weight="4"
+            android:visibility="gone"
+            android:padding="5dp" />
+    </TableRow>
+
+</TableLayout>

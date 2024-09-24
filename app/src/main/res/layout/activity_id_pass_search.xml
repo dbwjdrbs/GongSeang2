@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout tools:context=".ID_PASS_SearchActivity" android:orientation="vertical" android:gravity="center" android:background="@android:color/white" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button android:layout_height="wrap_content" android:layout_width="250dp" android:textSize="17sp" android:textColor="@android:color/white" android:text="아이디 찾기" android:backgroundTint="@android:color/black" android:id="@+id/btn_id_search"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="250dp" android:textSize="17sp" android:textColor="@android:color/white" android:text="비밀번호 찾기" android:backgroundTint="@android:color/black" android:id="@+id/btn_pass_search" android:layout_marginTop="10dp"/>
+
+</LinearLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:layout_margin="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:fontFamily="@font/nanum_barunpen_regular"
+            android:text="'공생'과 함께하다"
+            android:textColor="@android:color/black"
+            android:textSize="45dp" />
+
+        <EditText
+            android:id="@+id/reg_id"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:padding="10dp"
+            android:textFontWeight="@integer/material_motion_duration_long_2"
+            android:background="@drawable/memo_border"
+            android:ems="10"
+            android:hint="hello@example.com (3~15)"
+            android:textColorHint="@android:color/black"
+            android:inputType="textPersonName"
+            android:maxLength="15"
+            android:minHeight="48dp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:hint="  Password"
+            android:textColorHint="@android:color/black"
+            app:hintEnabled="false"
+            app:passwordToggleEnabled="true">
+
+            <EditText
+                android:id="@+id/reg_password"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:background="@drawable/memo_border"
+                android:ems="10"
+                android:hint="비밀번호 (15)"
+                android:textColorHint="@android:color/black"
+                android:inputType="textPersonName"
+                android:maxLength="15" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <EditText
+            android:id="@+id/reg_name"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:background="@drawable/memo_border"
+            android:ems="10"
+            android:hint="이름"
+            android:textColorHint="@android:color/black"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/reg_nickname"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:background="@drawable/memo_border"
+            android:ems="10"
+            android:hint="닉네임"
+            android:textColorHint="@android:color/black"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btn_register1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/black"
+            android:fontFamily="@font/nanum_barunpen_regular"
+            android:text="회원가입 완료"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="20dp" />
+    </LinearLayout>
+</LinearLayout>
