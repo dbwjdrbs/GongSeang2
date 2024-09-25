@@ -41,7 +41,7 @@
 
         <meta-data
             android:name="com.naver.maps.map.CLIENT_ID"
-            android:value="79sw3rt7zy" />
+            android:value="" />
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="" />
